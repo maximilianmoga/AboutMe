@@ -1,0 +1,20 @@
+*{
+    background-color: gray;
+    shape-image-threshold: inherit;
+    
+}
+head {
+    text-emphasis-color: black;
+    text-shadow: darkblue;
+    text-underline-position: auto;
+    
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
