@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Guessing GAME</title>
 </head>
-
 <body>
+    
+    <header>
+        <h1>WELCOME TO THE GUESSING GAME!!</h1>
+        <link rel="stylesheet" href="guessinggame.css">
+    </header>
+    
+        <img src= "https://www.funbrain.com/assets/img/content-cards/F2qRmLhRnmebc8jJAUjr_GuessTheNumber%403x.png" height="400" width="400">
+    
+    <div>
+        <li>In order to play this game, you will have to guess a number between 0-20.</li>
+        <li>You only have three tries, once you are out of tries you won't be able to continue.</li>
+                
+    </div>
+    <div>
+        <h3>Are you ready to guess???</h3>
+    </div>
 
-    <script type="module" src="app.js"></script>
+    <input type="number" id="enter-guess" min="1" max="20">
+    <button id="guessbutton">GO</button>
+     <p>remaining tries <span id="tries-display">4</span>
+     </p>
+     <p class="hidden" id="tempnumber">You guessed <span id="tempnumber"></span></p>
+    <script type="module" src="app1.js"></script>
+
+    
+    </body>
+       
+   
+
+
+</html>
+
 </body>
-
 </html>
